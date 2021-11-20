@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 import './style.scss';
 
-const Footer = ({ empresa, temaEscuro }) => {
+const Footer = () => {
   const generateDateString = () => {
     const creationYear = '2021';
     const currentYear = `${new Date().getFullYear()}`;
