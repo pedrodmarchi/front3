@@ -1,0 +1,32 @@
+#footer {
+  font-size: 3rem;
+
+
+  svg {
+    margin: 2vh 5vw 0 0;
+  }
+
+  .links {
+    flex: 100%;
+    text-align: center;
+  }
+}
+
+@media (min-width:670px) {
+
+  #footer {
+    padding: 1rem;
+
+
+      h3 {
+        flex: 50%;
+        text-align: center;
+      }
+
+      .links {
+      flex: 50%;
+      margin-bottom: 20px;
+    }
+  }
+  
+}

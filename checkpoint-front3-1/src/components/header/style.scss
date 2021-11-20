@@ -1,0 +1,34 @@
+header {
+  
+   .navbar .container-fluid .navbar-brand:first-child {
+    flex: 100%;
+    text-align: center;
+  }
+
+  .flex-container {
+    display: flex;
+    flex: 100%;
+  }
+
+
+  .navbar {
+    padding: 1rem;
+
+    .navbar-brand {
+      font-size: 3rem;
+      color: #F2F2F2;
+    } 
+  }
+}
+
+@media  (min-width: 500px){
+
+  header .navbar {
+    flex-wrap: nowrap;
+
+  }
+
+  header .navbar .container-fluid .navbar-brand:first-child {
+    flex: 20%;
+  }
+}
